@@ -17,9 +17,10 @@ var campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index");
 
     
-//Database connection    
- mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
-//mongoose.connect("mongodb+srv://ash123:gearsofwar32135@cluster0-kih6h.mongodb.net/medicalcamp?retryWrites=true", {useNewUrlParser: true});
+//Database connection  
+var url = process.env.DATABASEURL ||  "mongodb://localhost:27017/medical_camp";
+ mongoose.connect(url, {useNewUrlParser: true});
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
