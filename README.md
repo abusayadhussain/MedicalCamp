@@ -7,13 +7,17 @@ Features
 ----------
 1.Authentication:
 *User login with username and password
+
 2. Authorization:
 * One cannot manage posts and view user profile without being authenticated
 * One cannot edit or delete posts and comments created by other users
+
 3. Manage campground posts with basic functionalities:
 * Create, edit and delete posts and comments
 * Upload campground photos
+
 4. Flash messages responding to users' interaction with the app
+
 5. Responsive web design
 
 Custom Enhancements
