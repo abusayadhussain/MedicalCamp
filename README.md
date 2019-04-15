@@ -15,6 +15,7 @@ Features
 3. Manage campground posts with basic functionalities:
 * Create, edit and delete posts and comments
 * Upload campground photos
+* Display campground location on Google Maps
 
 4. Flash messages responding to users' interaction with the app
 
@@ -29,6 +30,7 @@ Built with
 Front-end:
 1. ejs
 2. Bootstrap
+3. Google Maps Api
 
 Back-end:
 1. express
